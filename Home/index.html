@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/43f9926b04.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover.css">
+    <script src="script.js" defer> </script>
+    <script src="/Profile/index.js"> </script>
+    <title>Document</title>
+</head>
+
+
+<body>
+    <nav class="sidebar border-end border-secondary text-center">
+
+        <div class="container p-5" style="height: 95px;">
+            <a href="/Home/index.html"> <i class="fa-brands fa-x-twitter fs-1" id="logo"></i> </a>
+        </div>
+
+
+
+        <div class="container icons   mt-2  " style="height: 450px; width: 210px;">
+            <div class=" mt-1 pt-2 rounded-4" id="A" style="height: 40px; width: 180px;">
+                <i class="fa-solid fa-house ps-2  rounded-4 ms-1 fs-4" id="a1"></i> <a href="/Home/index.html"
+                    class=" text-decoration-none fw-bold fs-5 ms-2" id="a"> Home </a>
+            </div><br>
+            <div class="mt-1 pt-2 rounded-4" id="B" style="height: 40px; width: 180px;">
+                <i class="fa-solid fa-magnifying-glass   ps-2  rounded-2 ms-1 fs-4" id="b1"></i> <a
+                    class=" text-decoration-none  fs-5 ms-2" id="b" disabled> Explore </a>
+            </div> <br>
+            <div class="mt-1 pt-2 rounded-4" id="C" style="height: 40px; width: 180px;">
+                <i class="fa-regular fa-bell ps-2  rounded-2 ms-1 fs-4  id=" c1" "></i> <a
+                    class=" text-decoration-none fs-5 ms-2" id="c"> Notifications</a>
+            </div><br>
+            <div class="mt-1 pt-2 rounded-4" id="D" style="height: 40px; width: 180px;">
+                <i class="fa-regular fa-envelope  ps-2  rounded-2 ms-1 fs-4" id="d1"></i><a
+                    class=" text-decoration-none  fs-5 ms-2" id="d"> Messages </a>
+            </div><br>
+            <div class="mt-1 pt-2 rounded-4" id="E" style="height: 40px; width: 180px;">
+                <i class="fa-solid fa-user-group  ps-2  rounded-2 ms-1 fs-4" id="e1"></i> <a
+                    class=" text-decoration-none  fs-5 ms-2" id="e"> Communities </a>
+            </div><br>
+            <div class="mt-1 pt-2 rounded-4" id="F" style="height: 40px; width: 180px;">
+                <i class="fa-brands fa-x-twitter ps-2  rounded-2 ms-1 fs-4" id="f1"></i> <a
+                    class="text-decoration-none  fs-5 ms-2" id="f"> Premium</a>
+            </div><br>
+            <div class="mt-1 pt-2 rounded-4" id="G" style="height: 40px; width: 180px;">
+                <i class="fa-solid fa-bolt-lightning ps-2  rounded-2 ms-1 fs-4" id="g1"></i> <a
+                    class=" text-decoration-none  fs-5 ms-2" id="g"> Verified Orgs </a>
+            </div><br>
+            <div class="mt-1 pt-2 rounded-4" id="H" style="height: 40px; width: 180px;">
+                <i class="fa-regular fa-user ps-2  rounded-2 ms-1 fs-4" id="h1"></i> <a href="/Profile/index.html"
+                    class=" text-decoration-none  fs-5 ms-2" id="h"> Profile </a>
+            </div><br>
+            <div class="mt-1 pt-2 rounded-4" id="I" style="height: 40px; width: 180px;">
+                <i class="fa-solid fa-ellipsis ps-2  rounded-2 ms-1 fs-4" id="i1"></i> <a
+                    class="text-decoration-none  fs-5 ms-2" id="i"> More </a>
+            </div><br>
+        </div>
+    </nav>
+
+
+    <div class="container border border-top-0 border-secondary text-center d-flex p-1" id="story"
+        style="height: 40px; width: 450px;">
+        <div class="container ">
+            <h6 id="x" class="pt-2 fw-bold" style="height: 100%;">For you</h6>
+        </div>
+        <div class="container  ">
+            <h6 id="y" class="pt-2 fw-bold" style="height: 100%;">Following</h6>
+        </div>
+    </div>
+
+    <div class="container    text-center " id="post" style=" width: 550px;">
+        <div class="container border border-top-0 border-secondary " style="height: 150px; width: 450px;">
+
+            <div class="container border-bottom border-secondary d-flex" style="height: 95px ; width: 100%;" id="home">
+
+                <a href="/Profile/index.html"> <img src="/asset/sss.jpg"
+                        class=" rounded-circle mt-2 border border-secondary" style="height: 50px ; width: 50px;"> </a>
+
+                <input autocomplete="off" type="text" id="texts" placeholder="What is happening?!"
+                    class="mt-2 ms-3 fs-5" style="height: 50px ; width: 100%;">
+
+            </div>
+
+            <div class="container  mt-2  d-flex" style="height: 45px; width: 100%;">
+                <div class="container d-flex justify-content-start mt-3">
+
+                </div>
+
+                <div class="container" style="height: 45px; width: 30%;">
+                    <input type="file" id="file" class="d-none">
+                    <label for="file" id="uploadbtn"><i class="fa-solid fa-photo-film "></i> </label>
+
+                    <button disabled class="btn btn-primary rounded-5 fw-bold mt-2 " onclick="showHidepost()"
+                        type="submit" id="posting" style="width: 60px; height: 30px;"> Post </button>
+                </div>
+            </div>
+            <!---->
+            <div class=" border border-secondary p-1 hide" style="width: 100px; height: 50px;" id="settings">
+                <div class="rounded-pill" style="width: 100%;" id="edit" onclick="edit()">Edit </div>
+                <button class=" rounded-pill" style="width: 100%;" id="delete" onclick="remove()"> Delete </button>
+            </div>
+
+            <div class="container hide" id="poss" style="height: 200px; width: 450px;">
+                <div class="container border border-bottom-0 border-secondary  mt-2 d-flex text-start "
+                    style="height: 65px ; width: 100%;">
+
+
+                    <div class="container pt-1" style="width: 99%; height: 60px;">
+                        @username
+                        <div class="container pt-2" id="poshing"> </div>
+
+
+                    </div>
+                    <!---->
+                    <div class="d-flex justify-content-end mt-2" id="dots"><i class="fa-solid fa-ellipsis"></i> </div>
+                </div>
+
+                <div class="container border border-top-0  border-secondary d-flex justify-content-evenly pt-2 "
+                    style="height: 27px ; width: 100%;">
+                    <i class="fa-solid fa-heart  fs-4 " id="heart"> </i>
+                    <i class="fa-regular fa-comment fs-4 " onclick="showHidepost2()" id="com"></i>
+                    <i class="fa-solid fa-share fs-4" id="share"></i>
+
+                </div>
+
+                <div class="container border border-secondary pt-2  hide text-start" id="comms"
+                    style="height: 150px; width: 100%;">
+
+                    <div class="text-secondary " style="height: 50px;">
+                        <div class="container pt-2" id="poshingss"> </div>
+
+                        <div class="container  fs-5 fw-bold " id="poshings">
+                        </div>
+
+                    </div>
+
+                    <input type="text" class="bg-transparent d-flex mt-3" id="comment" placeholder="Comment"
+                        style="height: 35px; width: 100%;">
+                    <button disable class="btn fw-bold mt-1" onclick="showHidepost3()" type="submit" id="postingss"
+                        style="width: 100%; height: 25px;"> Comment </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="asidebar">
+
+        <div class="container mt-1" style="height: 100%; width: 99%;">
+            <div class="container">
+                <div class="input-group mb-3 mt-4" style="height: 30px;">
+                    <span class="input-group-text bg-secondary" id="basic-addon1"><i
+                            class="fa-solid fa-magnifying-glass"></i> </span>
+                    <input type="text" class="form-control bg-secondary" placeholder="Search" aria-label="Search"
+                        aria-describedby="basic-addon1">
+                </div>
+
+                <div class="container border border-secondary rounded-4 mt-3" style="height: 90px; width: 235px;">
+                    <i class="fa-solid fa-check"></i> Shared post <br>
+                    <i class="fa-solid fa-check"></i> Comment <Br>
+                    <i class="fa-solid fa-check"></i> Follow
+
+                </div>
+
+                <div class="container  border border-secondary  rounded-4 mt-2 p-1 d-flex justify-content-start"
+                    style="height: 100%;">
+
+                    <div class="container rounded-4 justify-content-start" style="height: 200px;">
+
+                        <div class="container border border-secondary d-flex  rounded-4 mt-2 p-1" style="height: 28%;"
+                            id="mikasa">
+                            <a href="/other/index.html"> <img src="/asset/download.jpg " id="mikasa"
+                                    class=" rounded-circle  border border-secondary text-decoration-none "
+                                    style="height: 45px ; width: 45px;">
+                                <p><a href="#" class=" link-offset-2 link-underline link-underline-opacity-0 "
+                                        id="mika">Mikasa ackerman</a></p>
+                        </div>
+                        <div class="container border border-secondary d-flex  rounded-4 mt-3" style="height: 28%;"
+                            id="shelly">
+                            <a href="/other/shelly.html"> <img src="/asset/shelly.jpg" id="shelly"
+                                    class=" rounded-circle mt-2 border border-secondary text-decoration-none "
+                                    style="height: 45px ; width: 45px;">
+                                <p><a href="#" class=" link-offset-2 link-underline link-underline-opacity-0 "
+                                        id="shel"> shelly scott </a></p>
+                        </div>
+                        <div class="container border border-secondary d-flex  rounded-4 mt-3" style="height: 28%;"
+                            id="boa">
+                            <a href="/other/boa.html"> <img src="/asset/boa.jpg " id="boa"
+                                    class=" rounded-circle mt-2 border border-secondary text-decoration-none"
+                                    style="height: 45px ; width: 45px;">
+                                <p><a href="#" class=" link-offset-2 link-underline link-underline-opacity-0 "
+                                     id="boas"> Boa hancock </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+</body>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

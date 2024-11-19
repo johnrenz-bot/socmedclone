@@ -1,0 +1,149 @@
+    @import "/hover.css";
+
+    * {
+       color: #fff;
+       color: #DDD;
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       cursor: pointer;
+    }
+
+    :root {
+       --body-color: #7c3232;
+       --sidebar-color: #000000;
+       --primary-color: #626262;
+       --primary-color-light: #fff;
+       --toggle-color: #DDD;
+       --text-color: #709797;
+
+
+       --trans-03: all 0.2s ease;
+       --trans-03: all 0.3s ease;
+       --trans-03: all 0.4s ease;
+       --trans-03: all 0.5s ease;
+    }
+
+    body {
+
+       height: 100vh;
+       background: var(--sidebar-color);
+    }
+
+    .sidebar {
+       position: fixed;
+       top: 0;
+       left: 0;
+       height: 100%;
+       width: 220px;
+       margin-left: 273px;
+    }
+
+    .asidebar {
+       position: fixed;
+       top: 0;
+       right: 0;
+       height: 100%;
+       width: 285px;
+       margin-right: 240px;
+    }
+
+
+
+
+    .sidebar ul {
+       height: 15px;
+       color: #DDD;
+
+    }
+
+    #tx {
+       margin-top: 65px;
+    }
+
+    #ts {
+       margin-top: 10px;
+    }
+
+
+    #texts {
+       background-color: black;
+       border: none;
+    }
+
+    #poshing {
+       background-color: black;
+       border: none;
+    }
+
+    .hide {
+       display: none;
+    }
+
+    #mika {
+       color: #DDD;
+       position: fixed;
+       padding-top: 10px;
+       padding-left: 5px;
+    }
+
+    #boas {
+       color: #DDD;
+       position: fixed;
+       padding-top: 15px;
+       padding-left: 5px;
+    }
+
+    #shel {
+       color: #DDD;
+       position: fixed;
+       padding-top: 15px;
+       padding-left: 5px;
+    }
+
+    #but {
+       position: fixed;
+       margin-top: 10px;
+       margin-left: 155px;
+    }
+
+    #butt {
+       position: fixed;
+       margin-top: 15px;
+       margin-left: 150px;
+    }
+
+    #buttt {
+       position: fixed;
+       margin-top: 15px;
+       margin-left: 150px;
+    }
+
+    #uploadbtn {
+       position: relative;
+       right: 300px;
+    }
+
+    #settings {
+       background-color: #000000;
+       position: absolute;
+       right: 530px;
+       top: 200px;
+    }
+
+    #Settingss {
+       background-color: #000000;
+       position: absolute;
+       right: 530px;
+       top: 290px;
+    }
+
+    #delete {
+       background-color: transparent;
+       border: transparent;
+    }
+
+    #edit {
+       background-color: transparent;
+       border: transparent;
+    }

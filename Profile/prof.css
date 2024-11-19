@@ -1,0 +1,50 @@
+* {
+    cursor: pointer;
+}
+
+.user-img {
+    margin-left: 65px;
+}
+
+
+
+#uploadbtns {
+    position: relative;
+}
+
+#Edits {
+    position: relative;
+    bottom: 50px;
+    left: 350px;
+}
+
+#hide {
+    display: none;
+}
+
+#profedit {
+    position: absolute;
+    top: 155px;
+    right: 50px;
+    left: 50px;
+}
+
+#uploadbtn {
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    left: 45px;
+}
+
+#uploadbtns {
+    position: absolute;
+    top: 75px;
+    left: 210px;
+}
+
+#Save {
+    position: absolute; 
+    margin-top: 7px;
+    border: none;
+    
+}

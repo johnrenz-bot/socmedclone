@@ -1,0 +1,181 @@
+ #a {
+    color: white;
+ }
+
+ #b {
+    color: white;
+    ;
+ }
+
+ #c {
+    color: white;
+ }
+
+ #d {
+    color: white;
+ }
+
+ #e {
+    color: white;
+ }
+
+ #f {
+    color: white;
+ }
+
+ #g {
+    color: white;
+ }
+
+ #h {
+    color: white;
+ }
+
+ #i {
+    color: white;
+ }
+
+ #a:hover {
+    color: rgb(59, 57, 57);
+ }
+
+ #b:hover {
+    color: rgb(59, 57, 57);
+ }
+
+ #c:hover {
+    color: rgb(59, 57, 57);
+ }
+
+ #d:hover {
+    color: rgb(59, 57, 57);
+ }
+
+ #e:hover {
+    color: rgb(59, 57, 57);
+ }
+
+ #f:hover {
+    color: rgb(59, 57, 57);
+ }
+
+ #g:hover {
+    color: rgb(59, 57, 57);
+ }
+
+ #h:hover {
+    color: rgb(59, 57, 57);
+ }
+
+ #i:hover {
+    color: rgb(59, 57, 57);
+ }
+
+ #A:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.1;
+ }
+
+ #B:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.1;
+ }
+
+ #C:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.1;
+ }
+
+ #D:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.1;
+ }
+
+ #E:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.1;
+ }
+
+ #F:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.1;
+ }
+
+ #G:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.1;
+ }
+
+ #H:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.1;
+ }
+
+ #I:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.1;
+ }
+
+ #x:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.1;
+ }
+
+ #y:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.1;
+ }
+
+
+ #heart:hover {
+    color: rgb(59, 57, 57);
+    scale: 1.1;
+ }
+
+ #com:hover {
+    color: rgb(59, 57, 57);
+    scale: 1.1;
+ }
+
+ #share:hover {
+    color: rgb(59, 57, 57);
+    scale: 1.1;
+ }
+
+ #logo:hover {
+    color: rgb(100, 99, 99);
+    scale: 1.1;
+ }
+
+ #tx:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.2;
+ }
+
+ #ts:hover {
+    background-color: rgb(26, 26, 27);
+    scale: 1.1;
+ }
+
+ #boa:hover {
+    scale: 1.1;
+    background-color: rgb(23, 24, 24);
+ }
+
+ #shelly:hover {
+    scale: 1.1;
+    background-color: rgb(23, 24, 24);
+ }
+
+ #mikasa:hover {
+    scale: 1.1;
+    background-color: rgb(23, 24, 24);
+ }
+
+ #edit:hover {
+    background-color: rgb(23, 24, 24);
+ }
+
+ #delete:hover {
+    background-color: rgb(23, 24, 24);
+ }

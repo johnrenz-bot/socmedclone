@@ -1,0 +1,37 @@
+* {
+    cursor: pointer;
+}
+
+.user-img {
+    margin-left: 65px;
+}
+
+
+
+#uploadbtns {
+    position: relative;
+}
+
+#Follow {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 50px;
+    left: 350px;
+}
+
+#hide {
+    display: none;
+}
+
+#caption {
+    position: relative;
+    bottom: 15px;
+    margin-left: 60px;
+
+}
+
+#Faw {
+    color: rgb(0, 0, 0);
+
+}
